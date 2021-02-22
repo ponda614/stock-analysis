@@ -5,7 +5,7 @@ Steve loves the workbook you prepared for him. At the click of a button, he can 
 
 # Results
 
-The module 2 solution for stocks in 2017 ran for .79 seconds (View section All Stocks Analysis Runtimes) and the refactored code ran for .125 seconds (View section All Stocks Analysis Refactored Runtimes). The module 2 solution for stocks in 2018 ran for .78 seconds (View section All Stocks Analysis Runtimes) and the refactored code ran for .13 seconds (View section All Stocks Analysis Refactored Runtimes). In the "Sub All Stocks Analysis ()" we have a nested FOR loop (For i = 0 To 11, For j = 2 To RowCount), which repeats from the beginning to the end. The "Sub All Stock Analysis Refactored ()" has two separate FOR loops (For i = 0 To 11, For i = 2 To RowCount) which doesn’t repeat but continues from beginning to end. Hence, why the “Sub All Stocks Analysis Refactored ()” solution if faster than the “Sub All Stocks Analysis solution ()”. Both,“Sub All Stocks Analysis solution ()” and “Sub All Stocks Analysis Refactored ()”,  generate the same data which can be viewed Output Data Section below.
+The module 2 solution for stocks in 2017 ran for .79 seconds (View section All Stocks Analysis Runtimes) and the refactored code ran for .125 seconds (View section All Stocks Analysis Refactored Runtimes). The module 2 solution for stocks in 2018 ran for .78 seconds (View section All Stocks Analysis Runtimes) and the refactored code ran for .13 seconds (View section All Stocks Analysis Refactored Runtimes). In the "Sub All Stocks Analysis ()" we have a nested FOR loop (For i = 0 To 11, For j = 2 To RowCount), which repeats from the beginning to the end. The "Sub All Stock Analysis Refactored ()" has two separate FOR loops (For i = 0 To 11, For i = 2 To RowCount) which doesn’t repeat but continues from beginning to end. Hence, why the “Sub All Stocks Analysis Refactored ()” solution if faster than the “Sub All Stocks Analysis solution ()”. Both,“Sub All Stocks Analysis solution ()” and “Sub All Stocks Analysis Refactored ()”,  generate the same data which can be viewed Output Data For All Stocks 2017 and 2018 Section below.
 
 ## All Stocks Analysis Runtimes
 ![](All_Stocks_Analysis_2017_Runtime.PNG)
@@ -15,7 +15,7 @@ The module 2 solution for stocks in 2017 ran for .79 seconds (View section All S
 ![](All_Stocks_Analysis_Refactored_2017_Runtime.PNG)
 ![](All_Stocks_Analysis_Refactored_2018_Runtime.PNG)
 
-## Output Data
+## Output Data For All Stocks 2017 and 2018
 ![](VBA_Challenge_2017.png)
 ![](VBA_Challenge_2018.png)
 
