@@ -18,7 +18,6 @@ The module 2 solution for stocks in 2017 ran for .79 seconds (View section All S
 ## Output Data For All Stocks 2017 and 2018
 ![](VBA_Challenge_2017.png)
 ![](VBA_Challenge_2018.png)
-
 # Summary
 
 Software normally fails when it becomes so complex that it can no longer provide the additional features needed while remaining error free. Refactoring is used to improve code design to make it easier to understand and extensible. If you believe a feature may be needed in the future and your current code won’t be easily able to accommodate you could refactor that code to make it easier to add that feature now rather than worrying about what you need to change with your code to add that feature later. By removing duplicate code, you remove the amount of code and hence the less code that you have the easier it is to modify as well as understand. Refactoring also helps you write code quicker, easier to read, eliminates duplication, makes modification easy, and minimizes complex digital logic. The disadvantages of refactoring code is that you might have to retest lots of functionality because it comes down to the quality of your continuous integration pipeline and your automated tests.
